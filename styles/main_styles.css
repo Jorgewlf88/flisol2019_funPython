@@ -582,9 +582,23 @@ section
 {
 	max-width: 100%;
 }
+
+
+/*logo responsive*/
+@media only screen and (max-width: 600px) {
+    #logoid{
+    width: auto;
+        height: 50px;
+        
+}
+}
+
+
 .logo_content
 {
 	padding-left: 13px;
+    
+    
 }
 .logo_text
 {
@@ -594,6 +608,10 @@ section
 	font-weight: 500;
 	text-align: left;
 }
+
+
+
+
 .logo_text_not_ie /*colores naranja*/
 {
 	background-image: -webkit-linear-gradient(left, #ff8e2a, #ff8e2a); /* For Chrome and Safari #ff8e2a, #ff8e2a */
