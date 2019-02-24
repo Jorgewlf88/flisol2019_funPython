@@ -852,7 +852,10 @@ section
 }
 .intro_body
 {
+    height: 200px;
+    width: 100%;
 	padding-left: 39px;
+    	padding-right: 39px;
 	padding-top: 33px;
 	padding-bottom: 39px;
 }
