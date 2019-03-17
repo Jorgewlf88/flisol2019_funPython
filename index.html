@@ -1,595 +1,611 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-<title>Flisol 2019</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Conference project">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
-<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta name="description" content="El FLISoL se realiza desde el año 2005 y desde el 2008 se adoptó su realización el 4to Sábado de abril de cada año. La entrada es gratuita y su principal objetivo es promover el uso del software libre, dando a conocer al público en general su filosofía, alcances, avances y desarrollo.">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Page Title -->
+    <title>FLISOL Guayaquil 2019</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Google Font : Open Sans & Montserrat -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Plugins -->
+    <link href="css/plugins/animate.css" rel="stylesheet">
+    <link href="css/plugins/slick.css" rel="stylesheet">
+    <link href="css/plugins/magnific-popup.css" rel="stylesheet">
+    <link href="css/plugins/font-awesome.css" rel="stylesheet">
+    <link href="css/plugins/streamline-icons.css" rel="stylesheet">
+
+    <!-- Event Style -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Color Theme -->
+    <!-- Options: green, purple, red, yellow, mint, blue, black  -->
+    <link href="css/themes/orange.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+  <script src="js/ie/respond.min.js"></script>
+  <![endif]-->
+
+    <!-- Modernizr -->
+    <script src="js/modernizr.min.js"></script>
+    <!-- Subtle Loading bar -->
+    <script src="js/plugins/pace.js"></script>
 </head>
-<body>
 
-<div class="super_container">
+<body class="animate-page" data-spy="scroll" data-target="#navbar" data-offset="100">
+    <!--Preloader div-->
+    <div class="preloader"></div>
 
-	<!-- Menu -->
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top reveal-menu js-reveal-menu reveal-menu-hidden">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo FLISOL"> </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
 
-	<div class="menu trans_500">
-		<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
-			<div class="menu_close_container"><div class="menu_close"></div></div>
-			<div class="logo menu_logo">
-				<a href="#">
-					<div class="logo_container d-flex flex-row align-items-start justify-content-start">
-						<!--<div class="logo_image"><div><img src="images/logo.png" alt=""></div></div>-->
-						<div class="logo_content">
-							<div class="logo_text logo_text_not_ie" align="center">FLISOL 2019</div>
-							<div class="logo_sub" align="center">GYE,ECUADOR</div>
-						</div>
-					</div>
-				</a>
-			</div>
-			<ul>
-				<li class="menu_item"><a href="index.html">Inicio</a></li>
-				<li class="menu_item"><a href="flisol.html">Flisol</a></li>
-				<li class="menu_item"><a href="conferencias.html">Conferencistas</a></li>
-				<li class="menu_item"><a href="cronograma.html">Cronograma</a></li>
-				<li class="menu_item"><a href="organizadores.html">Organizadores</a></li>
-				<li class="menu_item"><a href="ubicacion.html">Ubicación</a></li>
-			</ul>
-		</div>
-		<div class="menu_social">
-			<div class="menu_social_title">Follow uf on Social Media</div>
-			<ul>
-				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-			</ul>
-		</div>
-	</div>
-	
-	<!-- Home -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#top">Inicio</a></li>
+                    <li><a href="#speakers">Speakers</a></li>
+                    <li><a href="#schedule">Agenda</a></li>
+                    <li><a href="#sponsors" class="hidden-sm">Sponsors</a></li>
+                    <li><a href="#venue" class="hidden-sm">Lugar</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+    <!-- // End Fixed navbar -->
 
-	<div class="home">
-		<!-- <div class="home_background" style="background-image: url(images/index.jpg)"></div> -->
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/index.jpg" data-speed="0.8"></div>
+    <header id="top" class="header parallax-bg">
+        <div class="container">
 
-		<!-- Header -->
-
-		<header class="header" id="header">
-			<div>
-				<div class="header_top">
-					<div class="container">
-						<div class="row">
-							<div class="col">
-								<div class="header_top_content d-flex flex-row align-items-center justify-content-start">
-									<div>
-										<a href="#">
-											<div class="logo_container d-flex flex-row align-items-start justify-content-start">
-												<!--<div class="logo_image"><div><img src="images/logo.png" alt=""></div></div>-->
-												<div class="logo_content">
-                                                    <div class="logo_text"><div><img  id="logoid" src="images/1/FLISoL%20Ecuador.png" alt=""></div></div>
-													<!--<div id="logo_text" class="logo_text logo_text_not_ie">FLISOL 2019</div>-->
-													<!--<div class="logo_sub" align="center">Mayo 19, 2019 - GYE, ECUADOR</div>-->
-												</div>
-											</div>
-										</a>	
-									</div>
-									<div class="header_social ml-auto">
-										<ul>
-											<!--<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>-->
-											<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-											<!--<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>-->
-											<!--<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>-->
-											<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-										</ul>
-									</div>
-									<div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="header_nav" id="header_nav_pin">
-					<div class="header_nav_inner">
-						<div class="header_nav_container">
-							<div class="container">
-								<div class="row">
-									<div class="col">
-										<div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
-											<nav class="main_nav">
-												<ul>
-													<li class="active"><a href="index.html">Inicio</a></li>
-													<li><a href="flisol.html">Flisol 2019</a></li>
-													<li><a href="conferencias.html">Conferencistas</a></li>
-													<li><a href="cronograma.html">Cronograma</a></li>
-													<li><a href="organizadores.html">Organizadores</a></li>
-													<li><a href="ubicacion.html">Ubicación</a></li>
-												</ul>
-											</nav>
-											<div class="header_extra ml-auto">
-												<div class="header_search"><i class="fa fa-search" aria-hidden="true"></i></div>
-												<div class="button header_button"><a href="https://www.conocimientolibre.ec/event/flisol2019-guayaquil-2019-05-18-8/register">Registrarse ahora!</a></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="search_container">
-							<div class="container">
-								<div class="row">
-									<div class="col">
-										<div class="search_content d-flex flex-row align-items-center justify-content-end">
-											<form action="#" id="search_container_form" class="search_container_form">
-												<input type="text" class="search_container_input" placeholder="Search" required="required">
-												<button class="search_container_button"><i class="fa fa-search" aria-hidden="true"></i></button>
-											</form>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>	
-			</div>
-		</header>
-
-		<div class="home_content_container">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="home_content">
-							<div class="home_date">Mayo 18, 2019</div>
-							<div class="home_location">Festival Latinoamericano de Instalación de Software Libre</div>
-							<div class="home_date">Guayaquil, Ecuador</div>
-							<div class="home_text">El FLISoL se realiza desde el año 2005 y desde el 2008 se adoptó su realización el 4to Sábado de abril de cada año. La entrada es gratuita y su principal objetivo es promover el uso del software libre, dando a conocer al público en general su filosofía, alcances, avances y desarrollo. </div>
-							<div class="home_buttons">
-								<div class="button home_button"><a href="https://www.conocimientolibre.ec/event/flisol2019-guayaquil-2019-05-18-8/register">Registrarse!</a></div>
-								<div class="button home_button"><a href="flisol.html">Información</a></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Intro -->
-
-	<div class="intro">
-		<div class="intro_content d-flex flex-row flex-wrap align-items-start justify-content-between">
-
-			<!-- Intro Item -->
-			<div class="intro_item">
-				<div class="intro_image"><img src="images/comunidades/fondo_coworking.jpg" alt=""></div>
-				<div class="intro_body">
-					<div class="intro_title"><a href="#">Paneles</a></div>
-					<div class="intro_subtitle">Son espacios de debate, donde participan al menos 3 panelistas. En tematicas como; Inclusión de Género, Innovadoras, Educacion y tecnologías libres.</div>
-				</div>
-			</div>
-
-			<!-- Intro Item -->
-            <!--
-			<div class="intro_item">
-				<div class="intro_image"><img src="images/intro_2.jpg" alt=""></div>
-				<div class="intro_body">
-					<div class="intro_title"><a href="#">Supersessions</a></div>
-					<div class="intro_subtitle">Donec quis metus ac arcu luctus accumsan.</div>
-				</div>
-			</div>-->
-
-			<!-- Intro Item -->
-			<div class="intro_item">
-				<div class="intro_image"><img src="images/inicio/charla1.jpg" alt=""></div>
-				<div class="intro_body">
-					<div class="intro_title"><a href="#">Charlas y Talleres</a></div>
-					<div class="intro_subtitle">Con duraciones de 30 y 60 minutos respectivamente, se realizaran en diferentes salones. Llevadas a cabo por profesionales en el tema.</div>
-				</div>
-			</div>
-
-			<!-- Intro Item -->
-			<div class="intro_item">
-				<div class="intro_image"><img src="images/comunidades/fondo_coworking.jpg" alt=""></div>
-				<div class="intro_body">
-					<div class="intro_title"><a href="#">Espacios de Experimentación</a></div>
-					<div class="intro_subtitle">En estos espacios podrán hacer muestras de trabajos prácticos/aplicados en áreas como: IoT, Robótica, Arte y Tecnología, entre otros. </div>
-				</div>
-			</div>
-
-			<!-- Intro Item -->
-            <!--
-			<div class="intro_item">
-				<div class="intro_image"><img src="images/intro_5.jpg" alt=""></div>
-				<div class="intro_body">
-					<div class="intro_title"><a href="#">Directory</a></div>
-					<div class="intro_subtitle">Donec quis metus ac arcu luctus accumsan.</div>
-				</div>
-			</div>-->
-
-			<!-- Intro Item -->
-			<div class="intro_item">
-				<div class="intro_image"><img src="images/comunidades/fondo_coworking.jpg" alt=""></div>
-				<div class="intro_body">
-					<div class="intro_title"><a href="#">Espacios de Instalación</a></div>
-					<div class="intro_subtitle">Es el espacio tradicional de todo FLISOL, en el cual estarán expertos en distribuciones LINUX, alternativas de software libre y open source de diferentes programas informaticos.</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-	<!-- Pricing  <img class="pricing_price"width="30" height="auto" src="images/funpythonlogo.png"/>
-  <div class="col-lg-4 pricing_col">
-					<div class="pricing_item">
--->
-
-	<div class="pricing">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/pricing.jpg" data-speed="0.8"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col text-center">
-					<div class="pricing_section_title">Comunidades</div>
-				</div>
-			</div>
-			<div class="row pricing_row " >
-                <div class="col-lg-4 pricing_col " align="center">
-					<img width="100" height="auto" src="images/Comunidades/FunPython_logo.png"/>
-                    <img width="100" height="auto" src="images/Comunidades/rich.png"/>
-                    <img width="100" height="auto" src="images/comunidades/Rails-logo.png"/>
+            <div class="header_top-bg">
+                <div class="logo">
+                    <a href="#"><img src="images/logo-w.png" alt="Logo FLISOL"></a>
                 </div>
-                <div class="col-lg-4 pricing_col" align="center">
-                    <img width="100" height="auto" src="images/comunidades/kokoa_logo.jpg"/>
-                <img width="100" height="auto" src="images/comunidades/Wikimedistas de Ecuador PNG.png"/>
-                <img width="100" height="auto" src="images/comunidades/Rladies_2.jpg"/></div>
-                
-                <div class="col-lg-4 pricing_col" align="center">
-                    <img width="100" height="auto" src="images/comunidades/Rails-logo.png"/>
-                <img width="100" height="auto" src="images/comunidades/rich.png"/>
-                    <img width="100" height="auto" src="images/comunidades/FunPython_logo.png"/></div>
-				<!-- Pricing Item -->
-				
-			</div>
-		</div>
-	</div>
+            </div>
 
-	<!-- Calendar -->
+            <h3 class="headline-support wow fadeInDown text-uppercase">Festival Latinoamericano de</h3>
+            <h1 class="headline wow fadeInDown text-uppercase" data-wow-delay="0.1s">Instalación de Software Libre</h1>
 
-	<div class="calendar">
-		<div class="container reset_container">
-			<div class="row">
-				<div class="col-xl-6 calendar_col">
-					<div class="calendar_container">
-						<div class="calendar_title_bar d-flex flex-row align-items-center justify-content-start">
-							<div><div class="calendar_icon"><img src="images/calendar.svg" alt=""></div></div>
-							<div class="calendar_title">18 de mayo - Mañana</div>
-						</div>
-						<div class="calendar_items">
-							
-							<!-- Calendar Item -->
-							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
-								<div><div class="calendar_item_image"><img src="images/event_1.jpg" alt=""></div></div>
-								<div class="calendar_item_time">
-									<div>08:30</div>
-									<div>Auditorium</div>
-								</div>
-								<div class="calendar_item_text">
-									<div>Registro</div>
-									<div>08 AM - 09 AM</div>
-									<div>Entrada</div>
-								</div>
-							</div>
+            <div class="when_where wow fadeIn" data-wow-delay="0.4s">
+                <p class="event_when">18 de Mayo de 2019</p>
+                <p class="event_where">Guayaquil, Ecuador</p>
+            </div>
 
-							<!-- Calendar Item -->
-							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
-								<div><div class="calendar_item_image"><img src="images/event_2.jpg" alt=""></div></div>
-								<div class="calendar_item_time">
-									<div>09:15</div>
-									<div>Auditorium</div>
-								</div>
-								<div class="calendar_item_text">
-									<div>Bienvenida Flisol 2019</div>
-									<div>08 AM - 09 AM</div>
-									<div>Speaker: Flisol</div>
-								</div>
-							</div>
+            <div class="header_bottom-bg">
+                <a class="btn btn-default btn-xl wow zoomIn" data-wow-delay="0.3s" href="https://www.conocimientolibre.ec/event/flisol2019-guayaquil-2019-05-18-8/register" target="_blank">Regístrate!</a>
+                <p class="cta_urgency wow fadeIn" data-wow-delay="0.5s"><small>Apresúrate, tenemos pocos asientos disponibles</small></p>
+            </div>
 
-							<!-- Calendar Item -->
-							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
-								<div><div class="calendar_item_image"><img src="images/event_3.jpg" alt=""></div></div>
-								<div class="calendar_item_time">
-									<div>09:30</div>
-									<div>Auditorium</div>
-								</div>
-								<div class="calendar_item_text">
-									<div>Comunidades</div>
-									<div>09 AM - 10 AM</div>
-									<div>Speaker: FunPython</div>
-								</div>
-							</div>
+        </div>
+        <!-- end .container -->
+    </header>
+    <!-- end .header -->
 
-							<!-- Calendar Item -->
-							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
-								<div><div class="calendar_item_image"><img src="images/event_4.jpg" alt=""></div></div>
-								<div class="calendar_item_time">
-									<div>10:00</div>
-									<div>Auditorium</div>
-								</div>
-								<div class="calendar_item_text">
-									<div>Drinks and dinner</div>
-									<div>08 AM - 04 PM</div>
-									<div>Speaker: Daniel Hill</div>
-								</div>
-							</div>
-                            
-                            <!-- Calendar Item -->
-							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
-								<div><div class="calendar_item_image"><img src="images/event_4.jpg" alt=""></div></div>
-								<div class="calendar_item_time">
-									<div>10:15</div>
-									<div>Auditorium</div>
-								</div>
-								<div class="calendar_item_text">
-									<div>Drinks and dinner</div>
-									<div>08 AM - 04 PM</div>
-									<div>Speaker: Daniel Hill</div>
-								</div>
-							</div>
-                            
-                            <!-- Calendar Item -->
-							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
-								<div><div class="calendar_item_image"><img src="images/event_4.jpg" alt=""></div></div>
-								<div class="calendar_item_time">
-									<div>11:00</div>
-									<div>Auditorium</div>
-								</div>
-								<div class="calendar_item_text">
-									<div>Drinks and dinner</div>
-									<div>08 AM - 04 PM</div>
-									<div>Speaker: Daniel Hill</div>
-								</div>
-							</div>
-                            
-                            <!-- Calendar Item -->
-							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
-								<div><div class="calendar_item_image"><img src="images/event_4.jpg" alt=""></div></div>
-								<div class="calendar_item_time">
-									<div>12:00</div>
-									<div>Auditorium</div>
-								</div>
-								<div class="calendar_item_text">
-									<div>Drinks and dinner</div>
-									<div>08 AM - 04 PM</div>
-									<div>Speaker: Daniel Hill</div>
-								</div>
-							</div>
+    <!-- 
+     Highlight Section
+     ====================================== -->
 
-						</div>
-					</div>
-				</div>
+    <section class="highlight">
 
-				<div class="col-xl-6 calendar_col">
-					<div class="calendar_container">
-						<div class="calendar_title_bar d-flex flex-row align-items-center justify-content-start">
-							<div><div class="calendar_icon"><img src="images/calendar.svg" alt=""></div></div>
-							<div class="calendar_title">18 de mayo - Tarde</div>
-						</div>
-						<div class="calendar_items">
-							
-							<!-- Calendar Item -->
-							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
-								<div><div class="calendar_item_image"><img src="images/event_5.jpg" alt=""></div></div>
-								<div class="calendar_item_time">
-									<div>13:00</div>
-									<div>Auditorium</div>
-								</div>
-								<div class="calendar_item_text">
-									<div>Business 101</div>
-									<div>08 AM - 04 PM</div>
-									<div>Speaker: Daniel Hill</div>
-								</div>
-							</div>
+        <div class="container">
+            <p class="lead text-center">El FLISoL se realiza desde el año 2005 y desde el 2008 se adoptó su realización el 4to Sábado de abril de cada año. La entrada es gratuita y su principal objetivo es promover el uso del software libre, dando a conocer al público en general su filosofía, alcances, avances y desarrollo.</p>
 
-							<!-- Calendar Item -->
-							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
-								<div><div class="calendar_item_image"><img src="images/event_6.jpg" alt=""></div></div>
-								<div class="calendar_item_time">
-									<div>13:30</div>
-									<div>Auditorium</div>
-								</div>
-								<div class="calendar_item_text">
-									<div>About technology</div>
-									<div>08 AM - 04 PM</div>
-									<div>Speaker: Daniel Hill</div>
-								</div>
-							</div>
+            <div class="countdown_wrap">
 
-							<!-- Calendar Item -->
-							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
-								<div><div class="calendar_item_image"><img src="images/event_7.jpg" alt=""></div></div>
-								<div class="calendar_item_time">
-									<div>14:00</div>
-									<div>Auditorium</div>
-								</div>
-								<div class="calendar_item_text">
-									<div>Conference calls</div>
-									<div>08 AM - 04 PM</div>
-									<div>Speaker: Daniel Hill</div>
-								</div>
-							</div>
+                <h6 class="countdown_title text-center">El evento empezará en:</h6>
 
-							<!-- Calendar Item -->
-							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
-								<div><div class="calendar_item_image"><img src="images/event_8.jpg" alt=""></div></div>
-								<div class="calendar_item_time">
-									<div>14:30</div>
-									<div>Auditorium</div>
-								</div>
-								<div class="calendar_item_text">
-									<div>Drinks and dinner</div>
-									<div>08 AM - 04 PM</div>
-									<div>Speaker: Daniel Hill</div>
-								</div>
-							</div>
-                            
-                            <!-- Calendar Item -->
-							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
-								<div><div class="calendar_item_image"><img src="images/event_4.jpg" alt=""></div></div>
-								<div class="calendar_item_time">
-									<div>15:00</div>
-									<div>Auditorium</div>
-								</div>
-								<div class="calendar_item_text">
-									<div>Drinks and dinner</div>
-									<div>08 AM - 04 PM</div>
-									<div>Speaker: Daniel Hill</div>
-								</div>
-							</div>
-                            
-                            <!-- Calendar Item -->
-							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
-								<div><div class="calendar_item_image"><img src="images/event_4.jpg" alt=""></div></div>
-								<div class="calendar_item_time">
-									<div>15:30</div>
-									<div>Auditorium</div>
-								</div>
-								<div class="calendar_item_text">
-									<div>Drinks and dinner</div>
-									<div>08 AM - 04 PM</div>
-									<div>Speaker: Daniel Hill</div>
-								</div>
-							</div>
-                            
-                            <!-- Calendar Item -->
-							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
-								<div><div class="calendar_item_image"><img src="images/event_4.jpg" alt=""></div></div>
-								<div class="calendar_item_time">
-									<div>16:00</div>
-									<div>Auditorium</div>
-								</div>
-								<div class="calendar_item_text">
-									<div>Drinks and dinner</div>
-									<div>08 AM - 04 PM</div>
-									<div>Speaker: Daniel Hill</div>
-								</div>
-							</div>
+                <!-- Countdown JS for the Event Date Starts here.
+    TIP: You can change your event time below in the Same Format.  -->
 
-						</div>
-					</div>
-				</div>
+                <ul id="countdown" data-event-date="18 may 2019 08:30:00">
+                    <li class="wow zoomIn" data-wow-delay="0s"> <span class="days">00</span>
+                        <p class="timeRefDays">días</p>
+                    </li>
+                    <li class="wow zoomIn" data-wow-delay="0.2s"> <span class="hours">00</span>
+                        <p class="timeRefHours">horas</p>
+                    </li>
+                    <li class="wow zoomIn" data-wow-delay="0.4s"> <span class="minutes">00</span>
+                        <p class="timeRefMinutes">minutos</p>
+                    </li>
+                    <li class="wow zoomIn" data-wow-delay="0.6s"> <span class="seconds">00</span>
+                        <p class="timeRefSeconds">segundos</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- end .countdown_wrap -->
 
-			</div>
-		</div>
-	</div>
+            <div class="text-center">
 
-	<!-- Call to action -->
+                <!-- Add to Calendar Plugin. 
+                     For Customization, Visit https://addtocalendar.com/ -->
 
-	<div class="cta">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/cta_1.jpg" data-speed="0.8"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="cta_content text-center">
-						<div class="cta_title">Convocatoria para participar en el FLISoL2019 #Ecuador</div>
-						<div class="button cta_button"><a href="https://www.conocimientolibre.ec/survey/start/convocatoria-para-participar-en-el-flisol2019-ecuador-10">Postula</a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                <span class="addtocalendar atc-style-theme">
+                <a class="atcb-link"><i class="fa fa-calendar"> </i> Agregar a mi calendario</a>
+                  <var class="atc_event">
+                      <var class="atc_date_start">2019-05-18 08:30:00</var>
+                      <var class="atc_date_end">2019-05-18 18:00:00</var>
+                      <var class="atc_timezone">America/Guayaquil</var>
+                      <var class="atc_title">Festival Latinoamericano de Instalación de Software Libre</var>
+                      <var class="atc_description">El FLISoL se realiza desde el año 2005 y desde el 2008 se adoptó su realización el 4to Sábado de abril de cada año. La entrada es gratuita y su principal objetivo es promover el uso del software libre, dando a conocer al público en general su filosofía, alcances, avances y desarrollo</var>
+                      <var class="atc_location">Guayaquil, Ecuador</var>
+                      <var class="atc_organizer">FLISOL Guayaquil</var>
+                      <var class="atc_organizer_email">guayaquil@flisol.ec</var>
+                  </var>
+               </span>
 
-	<!-- Footer -->
+            </div>
 
-	<footer class="footer">
-		<div class="footer_content">
-			<div class="container">
-				<div class="row">
-					
-					<!-- Footer Column -->
-					<div class="col-lg-6 footer_col">
-						<div class="footer_about">
-							<div>
-								<a href="#">
-									<div class="logo_container d-flex flex-row align-items-start justify-content-start">
-												<!--<div class="logo_image"><div><img src="images/logo.png" alt=""></div></div>-->
-												<div class="logo_content">
-                                                    <div class="logo_text"><div><img src="images/1/FLISoL%20Ecuador.png" alt=""></div></div>
-													<!--<div id="logo_text" class="logo_text logo_text_not_ie">FLISOL 2019</div>-->
-													<!--<div class="logo_sub" align="center">Mayo 19, 2019 - GYE, ECUADOR</div>-->
-												</div>
-											</div>
-								</a>	
-							</div>
-							<div class="footer_about_text">
-								<p>  “Si hay algo que merece una recompensa, es la contribución social. La creatividad puede ser una contribución social, pero solo en la medida en que la sociedad sea libre de aprovechar los resultados…[]”</p>
-								<p>-El manifiesto de GNU /> </p>
-							</div>
-						</div>
-					</div>
+        </div>
+        <!-- end .container -->
 
-					<!-- Footer Column -->
-					<div class="col-lg-6 footer_col" align="center">
-						<div class="footer_links">
-							<ul>
-								<li><a href="#">Inicio</a></li>
-								<li><a href="#">Flisol 2019</a></li>
-								<li><a href="#">Conferencistas</a></li>
-								<li><a href="#">Cronograma</a></li>
-								<li><a href="#">Organizadores</a></li>
-								<li><a href="#">Ubicación</a></li>
-							</ul>
-						</div>
-					</div>
+    </section>
+    <!-- end section.highlight -->
 
-					<!-- Footer Column -->
-					
-					<!-- Footer Column -->
-					
-				</div>
-			</div>
-		</div>
-		<div class="footer_extra">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="footer_extra_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-start justify-content-center">
-							<div class="footer_social">
-								<div class="footer_social_title">Sigue nuestras redes sociales</div>
-								<ul class="footer_social_list">
-									
-									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-									
-									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-								</ul>
-							</div>
-							<div class="footer_extra_right ml-lg-auto text-lg-right">
-								
-								<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script>  <i class="fa fa-heart-o" aria-hidden="true"></i> <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-		
-</div>
+    <!-- 
+     Our Speakers
+     ====================================== -->
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap4/popper.js"></script>
-<script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="js/custom.js"></script>
+    <section class="speakers" id="speakers">
+        <div class="container">
+
+            <div class="section-title wow fadeInUp">
+                <h4>SPEAKERS</h4>
+            </div>
+
+            <div class="speaker-slider">
+
+                <div class="speaker-info wow fadeIn" data-wow-delay="0s">
+                    <img src="images/avatar_1.png" alt="avatar" class="img-responsive center-block">
+                    <p>George Burton</p>
+                    <span>Flow Interactive</span>
+                </div>
+                <!-- end .speaker-info -->
+
+                <div class="speaker-info wow fadeIn" data-wow-delay="0.1s">
+                    <img src="images/avatar_2.png" alt="avatar" class="img-responsive center-block">
+                    <p>Louis Castillo</p>
+                    <span>Foursquare</span>
+                </div>
+                <!-- end .speaker-info -->
+
+                <div class="speaker-info wow fadeIn" data-wow-delay="0.2s">
+                    <img src="images/avatar_3.png" alt="avatar" class="img-responsive center-block">
+                    <p>Jamie Hefford</p>
+                    <span>Consultant</span>
+                </div>
+                <!-- end .speaker-info -->
+
+                <div class="speaker-info wow fadeIn" data-wow-delay="0.3s">
+                    <img src="images/avatar_4.png" alt="avatar" class="img-responsive center-block">
+                    <p>Cody Nesbit</p>
+                    <span>Washington post</span>
+                </div>
+                <!-- end .speaker-info -->
+
+                <div class="speaker-info wow fadeIn" data-wow-delay="0.4s">
+                    <img src="images/avatar_5.png" alt="avatar" class="img-responsive center-block">
+                    <p>Carol Wood</p>
+                    <span>Etsy.com</span>
+                </div>
+                <!-- end .speaker-info -->
+
+                <div class="speaker-info wow fadeIn" data-wow-delay="0.5s">
+                    <img src="images/avatar_6.png" alt="avatar" class="img-responsive center-block">
+                    <p>David Lindhold</p>
+                    <span>Happy Cog</span>
+                </div>
+
+                <!-- end .speaker-info -->
+                <div class="speaker-info wow fadeIn" data-wow-delay="0s">
+                    <img src="images/avatar_1.png" alt="avatar" class="img-responsive center-block">
+                    <p>George Burton</p>
+                    <span>Flow Interactive</span>
+                </div>
+                <!-- end .speaker-info -->
+
+                <div class="speaker-info wow fadeIn" data-wow-delay="0.1s">
+                    <img src="images/avatar_2.png" alt="avatar" class="img-responsive center-block">
+                    <p>Louis Castillo</p>
+                    <span>Foursquare</span>
+                </div>
+                <!-- end .speaker-info -->
+
+                <div class="speaker-info wow fadeIn" data-wow-delay="0.2s">
+                    <img src="images/avatar_3.png" alt="avatar" class="img-responsive center-block">
+                    <p>Jamie Hefford</p>
+                    <span>Consultant</span>
+                </div>
+                <!-- end .speaker-info -->
+
+            </div>
+
+        </div>
+        <!-- end .container -->
+    </section>
+    <!-- end section.speakers -->
+
+    <!-- 
+     Our Schedule
+     ====================================== -->
+
+    <section class="schedule" id="schedule">
+
+        <div class="container">
+            <div class="section-title wow fadeInUp">
+                <h4 class="text-uppercase">Agenda</h4>
+            </div>
+
+            <section class="timeline">
+                <div class="timeline-block">
+                    <div class="timeline-bullet wow zoomIn" data-wow-delay="0s">
+
+                    </div>
+                    <!-- timeline-bullet -->
+
+                    <div class="timeline-content">
+                        <h2 class="wow flipInX" data-wow-delay="0.3s"> Desayuno</h2>
+                        <span class="date wow flipInX" data-wow-delay="0.3s">08:30 AM</span>
+                    </div>
+                    <!-- timeline-content -->
+                </div>
+                <!-- timeline-block -->
+
+                <div class="timeline-block">
+                    <div class="timeline-bullet wow zoomIn" data-wow-delay="0s">
+
+                    </div>
+                    <!-- timeline-bullet -->
+
+                    <div class="timeline-content">
+                        <h2 class="wow flipInX" data-wow-delay="0.3s"> Bienvenida</h2>
+                        <p class="wow flipInX" data-wow-delay="0.3s">por Francisco Silva Garcés</p>
+                        <span class="date wow flipInX" data-wow-delay="0.3s">09:00 AM</span>
+                    </div>
+                    <!-- timeline-content -->
+                </div>
+                <!-- timeline-block -->
+
+                <div class="timeline-block">
+                    <div class="timeline-bullet wow zoomIn" data-wow-delay="0s">
+
+                    </div>
+                    <!-- timeline-bullet -->
+
+                    <div class="timeline-content">
+                        <h2 class="wow flipInX" data-wow-delay="0.3s"> Charla de comunidades</h2>
+                        <p class="wow flipInX" data-wow-delay="0.3s">por Lorem Ipsum</p>
+                        <span class="date wow flipInX" data-wow-delay="0.3s">10:00 AM</span>
+                    </div>
+                    <!-- timeline-content -->
+                </div>
+                <!-- timeline-block -->
+
+                <div class="timeline-block">
+                    <div class="timeline-bullet wow zoomIn" data-wow-delay="0s">
+
+                    </div>
+                    <!-- timeline-bullet -->
+
+                    <div class="timeline-content">
+                        <h2 class="wow flipInX" data-wow-delay="0.3s"> Successful Marketing Strategy</h2>
+                        <p class="wow flipInX" data-wow-delay="0.3s">by Carol Wood </p>
+                        <span class="date wow flipInX" data-wow-delay="0.3s">12:30 PM</span>
+                    </div>
+                    <!-- timeline-content -->
+                </div>
+                <!-- timeline-block -->
+
+                <div class="timeline-block">
+                    <div class="timeline-bullet wow zoomIn" data-wow-delay="0s">
+
+                    </div>
+                    <!-- timeline-bullet -->
+
+                    <div class="timeline-content">
+                        <h2 class="wow flipInX" data-wow-delay="0.3s"> Lunch</h2>
+                        <span class="date wow flipInX" data-wow-delay="0.3s">01:30 PM</span>
+                    </div>
+                    <!-- timeline-content -->
+                </div>
+                <!-- timeline-block -->
+
+                <div class="timeline-block">
+                    <div class="timeline-bullet wow zoomIn" data-wow-delay="0s">
+
+                    </div>
+                    <!-- timeline-bullet -->
+
+                    <div class="timeline-content">
+                        <h2 class="wow flipInX" data-wow-delay="0.3s"> Predict the future with an old trick</h2>
+                        <p class="wow flipInX" data-wow-delay="0.3s">by Cody Nesbit</p>
+                        <span class="date wow flipInX" data-wow-delay="0.3s">03:00 PM</span>
+                    </div>
+                    <!-- timeline-content -->
+                </div>
+                <!-- timeline-block -->
+
+                <div class="timeline-block">
+                    <div class="timeline-bullet wow zoomIn" data-wow-delay="0s">
+
+                    </div>
+                    <!-- timeline-bullet -->
+
+                    <div class="timeline-content">
+                        <h2 class="wow flipInX" data-wow-delay="0.3s"> Closing Thoughts</h2>
+                        <span class="date wow flipInX" data-wow-delay="0.3s">06:00 PM</span>
+                    </div>
+                    <!-- timeline-content -->
+                </div>
+                <!-- timeline-block -->
+            </section>
+
+
+        </div>
+        <!-- end .container -->
+
+    </section>
+    <!-- end section.schedule -->
+
+    <!-- 
+     What to Expect : Benefits
+     ====================================== -->
+
+    <!-- TODO: Change Icons to Fonts for better theming. -->
+
+    <section class="benefits">
+
+        <div class="container">
+            <div class="section-title wow fadeInUp">
+                <h4 class="text-uppercase">¿Que estamos preparando para ti?</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="benefit-item wow fadeInLeft">
+                                <div class="benefit-icon"><i class="icon icon-bubble-comment-streamline-talk"> </i></div>
+                                <h6 class="benefit-title">Charlas y Talleres</h6>
+                                <p>Con duraciones de 30 y 60 minutos respectivamente, realizadas en diferentes salones. Llevadas a cabo por profesionales en el tema</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="benefit-item wow fadeInRight">
+                                <div class="benefit-icon"><i class="icon icon-computer-streamline"> </i></div>
+                                <h6 class="benefit-title">Espacios de Experimentación</h6>
+                                <p>En estos espacios podrán hacer muestras de trabajos prácticos/aplicados en áreas como: IoT, Robótica, Arte y Tecnología, entre otros.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="benefit-item wow fadeInLeft">
+                                <div class="benefit-icon"> <i class="icon icon-dashboard-speed-streamline"> </i></div>
+                                <h6 class="benefit-title">Paneles</h6>
+                                <p>Son espacios de debate, donde participan al menos 3 panelistas. En tematicas como; Inclusión de Género, Innovadoras, Educacion y tecnologías libres</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="benefit-item wow fadeInRight">
+                                <div class="benefit-icon"> <i class="icon icon-ibook-laptop"> </i></div>
+                                <h6 class="benefit-title">Espacios de Instalación</h6>
+                                <p>Es el espacio tradicional de todo FLISOL, en el cual estarán expertos en distribuciones LINUX, alternativas de software libre y open source de diferentes programas informaticos.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- end .container -->
+    </section>
+
+    <!-- 
+     Sponsors
+     ====================================== -->
+
+    <section class="sponsors" id="sponsors">
+
+        <div class="container">
+            <div class="section-title wow fadeInUp">
+                <h4>SPONSORS</h4>
+                <p>El evento está respaldado por empresas y organizaciones fácilmente reconocibles que utilizamos todos los días.</p>
+            </div>
+
+            <div class="sponsor-slider wow bounceIn">
+                <div><img src="images/sponsor_1.png" class="img-responsive center-block" alt="sponsor"> </div>
+                <div><img src="images/sponsor_2.png" class="img-responsive center-block" alt="sponsor"> </div>
+                <div><img src="images/sponsor_3.png" class="img-responsive center-block" alt="sponsor"> </div>
+                <div><img src="images/sponsor_4.png" class="img-responsive center-block" alt="sponsor"> </div>
+                <div><img src="images/sponsor_1.png" class="img-responsive center-block" alt="sponsor"> </div>
+                <div><img src="images/sponsor_2.png" class="img-responsive center-block" alt="sponsor"> </div>
+                <div><img src="images/sponsor_3.png" class="img-responsive center-block" alt="sponsor"> </div>
+                <div><img src="images/sponsor_4.png" class="img-responsive center-block" alt="sponsor"> </div>
+            </div>
+        </div>
+        <!-- end .container -->
+    </section>
+    <!-- end section.sponsors -->
+
+    <!-- 
+     Location Map
+     ====================================== -->
+
+    <div class="" id="venue">
+        <div class="">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7973.852939798421!2d-79.90799702157176!3d-2.181600476683465!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x173636d8f79dec15!2sUniversidad+Cat%C3%B3lica+de+Santiago+de+Guayaquil!5e0!3m2!1ses!2sec!4v1552851689782" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+    </div>
+    <!-- end div -->
+
+    <!-- 
+     Contact us
+     ====================================== -->
+
+    <div class="highlight">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="contact-box">
+                        <img src="images/location-icon.png" alt="location icon" class="wow zoomIn">
+                        <h5 class="text-uppercase">Dirección</h5>
+                        <p>Facultad de Especialidades Empresariales, Universidad Católica Santiago de Guayaquil.
+                            <br>Calle Terán entre Simón Bolivar y Sucre.
+                            <br> Guayaquil, Ecuador
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="contact-box">
+                        <img src="images/email-icon.png" alt="email icon" class="wow zoomIn" data-wow-delay="0.3s">
+                        <h5 class="text-uppercase">Contacto</h5>
+                        <p><a href="mailto:guayaquil@flisol.ec">guayaquil@flisol.ec</a>
+                            <br>
+                            <br> +593 99 999 999
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--  // end .row -->
+        </div>
+    </div>
+    <!-- //  end .highlight -->
+
+    <!-- 
+     Footer Call to Action
+     ====================================== -->
+<section class="faq">
+
+        <div class="container">
+
+            <div class="section-title">
+                <h5>Consideraciones Generales</h5>
+            </div>
+            <div class="row">
+                <div class="col-md-12 wow fadeInLeft" data-wow-duration="2s">
+                    <p class="text-center">✅ Ser puntual. Llega a tiempo para contribuir al desarrollo sin inconvenientes del evento.</p>
+                    <p class="text-center">✅ Si quieres instalar en tu equipo alguna distribución GNU/Linux (sistema operativo), haz previamente un respaldo de tus archivos.</p>
+                    <p class="text-center">✅ Si te interesa participar en los talleres, te recomendamos lleves tu portátil.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-action">
+
+        <div class="container">
+
+            <h4 class="headline-support wow fadeInDown">Convocatoria</h4>
+            <h2 class="headline wow fadeInDown" data-wow-delay="0.1s">Para participar en el FLISoL2019 #Ecuador</h2>
+
+            <div class="footer_bottom-bg">
+                <a class="btn btn-success btn-xl wow zoomIn text-uppercase" data-wow-delay="0.3s" href="https://www.conocimientolibre.ec/survey/start/convocatoria-para-participar-en-el-flisol2019-ecuador-10" target="_blank">Postula</a>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- end section.footer-action -->
+
+
+    <section class="">
+
+        <div class="container">
+            <div class="section-title wow fadeInUp">
+                <h4>Comunidades</h4>
+            </div>
+
+            <div class="row wow bounceIn">
+                <div class="col-md-2">
+                    <img src="images/comunidades/FunPython_logo.png" class="img-comunidades img-responsive center-block mb-3">
+                </div>
+                <div class="col-md-2">
+                    <img src="images/comunidades/rich.png" class="img-comunidades img-responsive center-block mb-3">
+                </div>
+                <div class="col-md-2">
+                    <img src="images/comunidades/Rails-logo.png" class="img-comunidades img-responsive center-block mb-3">
+                </div>
+                <div class="col-md-2">
+                    <img src="images/comunidades/kokoa_logo.jpg" class="img-comunidades img-responsive center-block mb-3">
+                </div>
+                <div class="col-md-2">
+                    <img src="images/comunidades/wikimedistas-de-Ecuador.png" class="img-comunidades img-responsive center-block mb-3">
+                </div>
+                <div class="col-md-2">
+                    <img src="images/comunidades/wpguayaquil.png" class="img-comunidades img-responsive center-block mb-3">
+                </div>
+
+            </div>
+        </div>
+        <!-- end .container -->
+    </section>
+
+    <footer>
+
+        <div class="social-icons">
+            <a href="#" class="wow zoomIn"> <i class="fa fa-twitter"></i> </a>
+            <a href="#" class="wow zoomIn" data-wow-delay="0.2s"> <i class="fa fa-facebook"></i> </a>
+            <a href="#" class="wow zoomIn" data-wow-delay="0.4s"> <i class="fa fa-linkedin"></i> </a>
+        </div>
+        <p> <small class="text-muted">Copyright © 2019. Festival Latinoamericano de Instalación de Software Libre</small></p>
+
+    </footer>
+
+    <a href="#top" class="back_to_top"><img src="images/back_to_top.png" alt="back to top"></a>
+
+    <!-- 
+     Javascripts
+     ====================================== -->
+
+    <!-- jQuery Library -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- 3rd party Plugins -->
+    <script src="js/plugins/countdown.js"></script>
+    <script src="js/plugins/wow.js"></script>
+    <script src="js/plugins/slick.js"></script>
+    <script src="js/plugins/magnific-popup.js"></script>
+    <script src="js/plugins/validate.js"></script>
+    <script src="js/plugins/appear.js"></script>
+    <script src="js/plugins/count-to.js"></script>
+    <script src="js/plugins/nicescroll.js"></script>
+    <script src="js/plugins/parallax.js"></script>
+
+    <!-- Main Script -->
+    <script src="js/main.js"></script>
+
 </body>
+
 </html>
