@@ -15,6 +15,12 @@
    THEME SPECIFIC STYLES : VISUAL STYLES ONLY
    ================================================ */
 /*White bg*/
+.color-theme {
+  color: #ff8e2a;
+}
+.bg-theme {
+  color: #ff8e2a;
+}
 
 body,
 .pace .pace-progress {
